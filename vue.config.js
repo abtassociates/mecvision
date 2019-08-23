@@ -1,6 +1,9 @@
 const manifestJSON = require('./public/manifest.json')
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/mecvision/'
+    : '/',
   pwa: {
     themeColor: manifestJSON.theme_color,
     workboxOptions: {
