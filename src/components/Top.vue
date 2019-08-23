@@ -3,7 +3,7 @@
 <div class="title my-4">
 
   <v-layout justify-center row @click="rerender()" style="cursor: pointer">
-    <v-avatar tile size="48" class="mr-2 ml-0"><img src="/img/bot.png" /></v-avatar>
+    <v-avatar tile size="48" class="mr-2 ml-0"><img src="/mecvision/img/bot.png" /></v-avatar>
     <span class="display-2 font-weight-black text-uppercase black--text pb-0"><span>MEC</span><span class="font-weight-thin">Vision</span></span>
   </v-layout>
 

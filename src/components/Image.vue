@@ -17,7 +17,7 @@
         <v-flex xs12 md4>
           <v-item>
             <v-card slot-scope="{ active, toggle }" :style="active ? 'border: 2px solid var(--v-primary-base)' : ''" :class="active ? 'elevation-5' : ''" @click="toggle(), resetCroppa()">
-              <v-img src="/img/type-paper-thumb.jpg" aspect-ratio="2.00"></v-img>
+              <v-img src="/mecvision/img/type-paper-thumb.jpg" aspect-ratio="2.00"></v-img>
               <v-card-title primary-title>
                 <div>
                   <h3 class="headline mb-0">{{ $t('Paper Strip') }}</h3>
@@ -31,7 +31,7 @@
         <v-flex xs12 md4>
           <v-item>
             <v-card slot-scope="{ active, toggle }" :style="active ? 'border: 2px solid var(--v-primary-base)' : ''" :class="active ? 'elevation-5' : ''" @click="toggle(), resetCroppa()">
-              <v-img src="/img/type-magnified-thumb.jpg" aspect-ratio="2.00"></v-img>
+              <v-img src="/mecvision/img/type-magnified-thumb.jpg" aspect-ratio="2.00"></v-img>
               <v-card-title primary-title>
                 <div>
                   <h3 class="headline mb-0">{{ $t('Magnified') }}</h3>
@@ -45,7 +45,7 @@
         <v-flex xs12 md4>
           <v-item>
             <v-card slot-scope="{ active, toggle }" :style="active ? 'border: 2px solid var(--v-primary-base)' : ''" :class="active ? 'elevation-5' : ''" @click="toggle(), resetCroppa()">
-              <v-img src="/img/type-microscope-thumb.jpg" aspect-ratio="2.00"></v-img>
+              <v-img src="/mecvision/img/type-microscope-thumb.jpg" aspect-ratio="2.00"></v-img>
               <v-card-title primary-title>
                 <div>
                   <h3 class="headline mb-0">{{ $t('Microscope') }}</h3>
@@ -175,9 +175,9 @@ export default {
     },
     loadDemoImage () {
       let image = new Image()
-      if (this.imageType === 0) { image.src = '/img/type-paper.jpg' }
-      if (this.imageType === 1) { image.src = '/img/type-magnified.jpg' }
-      if (this.imageType === 2) { image.src = '/img/type-microscope.jpg' }
+      if (this.imageType === 0) { image.src = '/mecvision/img/type-paper.jpg' }
+      if (this.imageType === 1) { image.src = '/mecvision/img/type-magnified.jpg' }
+      if (this.imageType === 2) { image.src = '/mecvision/img/type-microscope.jpg' }
       this.initialImage = image
       this.croppa.refresh()
       this.$vuetify.goTo('#croppaBox', {
