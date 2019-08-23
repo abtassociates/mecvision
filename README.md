@@ -19,6 +19,7 @@ This project was largely funded through the ZAP program of USAID.
 
 ## Installation & Setup
 
+
 ### Clone repository
 ```
 git clone https://github.com/abtassociates/mecvision.git
