@@ -4,7 +4,8 @@ The MEC Vision web-app is a Progressive Web App ([PWA]) prototype coding project
 
 This project uses [OpenCV.js], [Vue.js], [Vuetify], and [Vue Croppa] technologies, and used the [TodoMVC] PWA as a template for its codebase.
 
-This project was largely funded through the ZAP program of USAID.
+MECVision was aided in being made possible by the generous support of the American people through the United States Agency for International Development (USAID) and is implemented under the [Zika AIRS Project](https://www.usaid.gov/documents/1862/zika-airs-project-zap). The information on this website and web app does not necessarily represent the views of USAID or the United States Government.
+
 
 [Live Demo]
 
