@@ -1,0 +1,20 @@
+{
+  "name": "MECVision",
+  "short_name": "MECVision",
+  "icons": [
+    {
+      "src": "/mecvision/img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/mecvision/img/icons/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/mecvision/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#4DBA87"
+}

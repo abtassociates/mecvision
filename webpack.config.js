@@ -1,3 +1,3 @@
 export const build = {
-  assetsPublicPath: '/mec-vision/'
+  assetsPublicPath: '/mecvision/'
 }
