@@ -295,10 +295,10 @@ export default {
       ],
       analysisStarted: false,
       analysisComplete: false,
-      threshValue: 104,
+      threshValue: 120,
       minEggRadius: 5,
-      maxEggRadius: 7,
-      maxEggCluster: 20,
+      maxEggRadius: 13,
+      maxEggCluster: 30,
       singlesCount: 0,
       clustersCount: 0,
       singlesArray: [],
@@ -327,9 +327,9 @@ export default {
         this.maxEggCluster = 8
       } else if (imageType === 1) {
         this.threshValue = 120
-        this.minEggRadius = 4
-        this.maxEggRadius = 5
-        this.maxEggCluster = 8
+        this.minEggRadius = 5
+        this.maxEggRadius = 13
+        this.maxEggCluster = 30
       } else {
         this.threshValue = 120
         this.minEggRadius = 4

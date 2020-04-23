@@ -15,7 +15,7 @@ MECVision was aided in being made possible by the generous support of the Americ
 [Vuetify]: https://vuetifyjs.com
 [Vue Croppa]: https://zhanziyang.github.io/vue-croppa/
 [TodoMVC]: http://todomvc.com
-[Live Demo]: https://mecvision.netlify.com
+[Live Demo]: https://abtassociates.github.io/mecvision/
 
 
 ## Installation & Setup
